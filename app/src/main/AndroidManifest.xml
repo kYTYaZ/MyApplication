@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.andy.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.access_wifi_state"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/daxiong2"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme3">
+        <meta-data
+                android:name="android.max_aspect"
+                android:value="2.1"/>
+
+        <activity
+                android:name=".Activity.Activity_Main"
+                android:resizeableActivity="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".Activity.Activity_PhoneLogin"
+                android:launchMode="singleTask"/>
+        <activity
+                android:name=".Activity.Activity_OtherWay"
+                android:launchMode="singleTask"/>
+        <activity
+                android:name=".Activity.Activity_PhoneReg"
+                android:launchMode="singleTask"/>
+        <activity android:name=".ListView.ListView_Country"/>
+        <activity android:name=".Activity.Activity_Test1"/>
+        <activity android:name=".Activity.Activity_Test2"/>
+        <activity android:name=".ListView.ListView_main"/>
+        <activity android:name=".RecyclerView.LinearRecyclerView_Country"/>
+        <activity android:name=".RecyclerView.HorRecyclerView_Country"/>
+        <activity android:name=".RecyclerView.GridRecyclerView"/>
+        <activity android:name=".Activity.Activity_TestView"/>
+        <activity android:name=".RecyclerView.PuRecyclerView"/>
+        <activity android:name=".Activity.Activity_WebView"/>
+        <activity android:name=".Activity.Activity_Toast"/>
+        <activity android:name=".Activity.Activity_Dialog"/>
+        <activity android:name=".Activity.Activity_Chat"/>
+        <activity android:name=".Activity.Activity_Main2"/>
+        <activity android:name=".Test_News.NewsContentActivity"/>
+        <activity android:name=".Test_News.NewsMainActivity"/>
+        <activity android:name=".Test_Broadcast.Activity_Broadcast"/>
+        <activity android:name=".Test_Broadcast.Activity_Broadcast2"/>
+        <activity android:name=".Test_Broadcast.Activity_Broadcast3"/>
+        <activity android:name=".Test_Broadcast.Activity_Broadcast4_LoginActivity">
+        </activity>
+        <activity android:name=".Test_Broadcast.Activity_Broadcast4_MainActivity">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">微信</string>
+    <string name="button1">Button1</string>
+    <string name="button2">Button2</string>
+    <string name="button3">Button3</string>
+    <string name="注册">注册</string>
+    <string name="登录">登录</string>
+    <string name="下一步">下一步</string>
+    <string name="帐号">帐号</string>
+    <string name="密码">密码</string>
+    <string name="手机号登录">手机号登录</string>
+    <string name="手机号登录2">用手机号登录</string>
+    <string name="微信号登录">微信号/QQ号/邮箱登录</string>
+    <string name="微信号登录2">用微信号/QQ号/邮箱登录</string>
+    <string name="手机号">手机号</string>
+    <string name="请填写手机号">请填写手机号</string>
+    <string name="请填写1">请填写微信号/QQ号/邮箱</string>
+    <string name="请填写2">请填写密码</string>
+    <string name="国家">国家/地区</string>
+    <string name="找回密码">找回密码</string>
+    <string name="紧急冻结">紧急冻结</string>
+    <string name="微信安全中心">微信安全中心</string>
+    <string name="手机号注册">手机号注册</string>
+    <string name="昵称">昵称</string>
+    <string name="例如"><![CDATA[例如：陈晨]]></string>
+    <string name="填写密码">填写密码</string>
+    <string name="小字">点击上面的“注册”按钮，即表示你同意《腾讯微信软件许可及服务协议》和《微信隐私保护指引》</string>
+    <string name="测试">测试</string>
+</resources>

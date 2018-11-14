@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#54cc8f</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#147cb8</color>
+    <color name="country">#B2DDB3</color>
+    <color name="title">#1D1D1D</color>
+    <color name="blue">#8B99B4</color>
+    <color name="blue2">#9EAFBF</color>
+    <color name="green_next_noedit">#bbe2bb</color>
+    <color name="green_next2">#F0F3F0</color>
+    <drawable name="green_next2">#F0F3F0</drawable>
+    <color name="green_next3">#61CE64</color>
+    <drawable name="green_next3">#61CE64</drawable>
+    <color name="green_press_noedit">#96CD98</color>
+    <color name="green_press2">#0D9613</color>
+    <color name="green_press3">#0C8710</color>
+    <color name="line">#B3B3B3</color>
+    <color name="line2">#CACACA</color>
+    <color name="小字">#999999</color>
+    <color name="green_line">#AADB98</color>
+    <color name="区号代码背景">#e6e6e6</color>
+    <color name="界面背景">#f2f2f2</color>
+    <color name="区号代码字体">#9d9d9d</color>
+    <color name="聊天背景">#ebebeb</color>
+    <color name="black">#303030</color>
+    <color name="Black_line">#1C2021</color>
+    <color name="Black_line_bg">#383A3E</color>
+    <color name="蓝色字体">#4fb7c8</color>
+    <color name="提示字体">#626c74</color>
+    <color name="提示背景">#ffffff</color>
+    <color name="聊天字体左">#FFFFFF</color>
+    <color name="聊天字体右">#9FE757</color>
+    <color name="聊天字体">#363636</color>
+</resources>

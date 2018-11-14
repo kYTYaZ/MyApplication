@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@color/提示背景"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+>
+
+    <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="提示"
+            android:textSize="20sp"
+            android:textColor="@color/提示字体"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"/>
+    <TextView
+            android:id="@+id/tv_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确定要删除订单吗？"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/提示字体"
+            android:textAlignment="center"/>
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:id="@+id/view_heng"
+            android:layout_marginTop="20dp"
+            android:background="@color/区号代码背景"/>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+        <TextView
+                android:text="取消"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:id="@+id/tv_cancel"
+                android:textSize="20sp"
+                android:textColor="@color/蓝色字体"
+                android:gravity="center"
+                android:layout_weight="1"/>
+        <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:id="@+id/view_shu"
+                android:background="@color/区号代码背景"
+        />
+
+        <TextView
+                android:text="确定"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:id="@+id/tv_confirm"
+                android:textSize="20sp"
+                android:textColor="@color/蓝色字体"
+                android:gravity="center"
+                android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

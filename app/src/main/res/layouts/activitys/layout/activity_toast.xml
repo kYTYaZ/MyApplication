@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+>
+
+    <com.andy.myapplication.Title.TitleLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    />
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+    >
+        <Button
+                android:text="默认"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button1"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textColor="@color/区号代码字体"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"/>
+        <Button
+                android:text="带图片（自定义）"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button3"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textColor="@color/区号代码字体"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"/>
+        <Button
+                android:text="改变位置"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button2"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textColor="@color/区号代码字体"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

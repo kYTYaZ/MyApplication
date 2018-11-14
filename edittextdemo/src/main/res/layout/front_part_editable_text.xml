@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/part_editable_layout">
+
+    <com.example.edittextdemo.BackDetectableEditText 
+        android:id="@+id/part_editable_text"
+        android:layout_width="300dp"
+        android:layout_height="50dp"/>
+    
+     <Button 
+        android:id="@+id/part_editable_text_dummy"
+        android:layout_width="0dp"
+        android:layout_height="0dp"/>
+
+</LinearLayout>

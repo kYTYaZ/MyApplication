@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="17sp"
+        android:text="中国省市选择" />
+    
+    <TextView 
+       	android:id="@+id/tv_province"
+       	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:layout_marginLeft="20dip"
+       	android:layout_below="@+id/tv_title"
+       	android:text="省"
+        />
+    
+    <Button 
+        android:id="@+id/btn_province"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_province"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        />
+    
+    <TextView 
+       	android:id="@+id/tv_city"
+       	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:layout_marginLeft="20dip"
+       	android:layout_below="@+id/btn_province"
+       	android:text="市"
+        />
+    
+    <Button 
+        android:id="@+id/btn_city"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_city"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        />
+    
+    <TextView 
+       	android:id="@+id/tv_county"
+       	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:layout_marginLeft="20dip"
+       	android:layout_below="@+id/btn_city"
+       	android:text="县、区"
+        />
+    
+    <Button 
+        android:id="@+id/btn_county"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_county"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        />
+    
+    <TextView 
+        android:id="@+id/tv_show"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_county"
+        android:textSize="16sp"
+        android:layout_margin="20dip"
+        />
+
+</RelativeLayout>
